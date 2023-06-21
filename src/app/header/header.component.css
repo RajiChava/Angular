@@ -1,0 +1,23 @@
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    background-color:#E7F2F8;
+    height: 40px;
+}
+
+a{
+    line-height: 40px;
+    color: black;
+    margin: 0 20px;
+}
+.active{
+    background-color :#acd2e7 ;
+    padding: 10px 10px;
+}

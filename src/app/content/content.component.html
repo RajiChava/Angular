@@ -1,0 +1,15 @@
+<h2>Content</h2>
+<form [formGroup]="profileForm">
+  <label for="">firstname</label> 
+  <input type="text" class="form-control w-50 m-2" formControlName="firstName">
+ <div class="form-group">
+   
+   <label for="">lastname</label>
+   <input type="text" class="form-control w-50 m-2" formControlName="lastName">
+ </div>
+ <button class="btn btn-info" (click)="submit()">submit</button>
+
+</form>
+
+<p>{{profileForm.value.firstName}}</p>
+<p>{{profileForm.value.lastName}}</p>
